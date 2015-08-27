@@ -1,0 +1,42 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    armor (0.0.3)
+    basica (0.0.1)
+    git-version-bump (0.15.1)
+    hiredis (0.6.0)
+    json (1.8.3)
+    msgpack (0.5.12)
+    net-http-persistent (2.9.4)
+    nido (1.0.0)
+    ohm (2.3.0)
+      msgpack (~> 0.5.0)
+      nido
+      redic (~> 1.5.0)
+      stal
+    rack (1.6.4)
+    rack-contrib (1.4.0)
+      git-version-bump (~> 0.15)
+      rack (~> 1.4)
+    redic (1.5.0)
+      hiredis
+    seg (0.0.1)
+    shield (2.1.1)
+      armor
+    stal (0.1.0)
+      redic
+    syro (0.0.7)
+      rack (~> 1.6.0)
+      seg
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  basica
+  json
+  net-http-persistent
+  ohm
+  rack-contrib
+  shield
+  syro
